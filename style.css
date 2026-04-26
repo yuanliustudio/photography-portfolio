@@ -210,3 +210,59 @@ footer {
     font-size: 52px;
   }
 }
+/* Portfolio refinement */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(32px, 4vw, 64px);
+  align-items: start;
+}
+
+.card {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.portfolio-image {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  display: block !important;
+  margin-bottom: 26px !important;
+  filter: none !important;
+  background: #111111;
+}
+
+.card h3 {
+  font-size: 22px;
+  line-height: 1.1;
+  margin-bottom: 14px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.card p {
+  max-width: 360px;
+  color: #b8b8b8;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.card:hover .portfolio-image {
+  opacity: 0.92;
+  transition: opacity 0.25s ease;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 72px;
+  }
+
+  .card p {
+    max-width: 100%;
+  }
+}
