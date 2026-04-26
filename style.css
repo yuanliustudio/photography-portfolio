@@ -144,6 +144,14 @@ h2 {
   background: linear-gradient(135deg, #1c1c1c, #3a3a3a);
   margin-bottom: 22px;
 }
+.portfolio-image {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 22px;
+  filter: grayscale(100%);
+}
 
 .card h3 {
   font-size: 22px;
