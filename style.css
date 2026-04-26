@@ -1039,3 +1039,29 @@ nav a {
 .portfolio-card-link:hover h3 {
   opacity: 0.72 !important;
 }
+/* Project navigation refinement */
+
+.project-nav-grid {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  gap: 24px !important;
+  flex-wrap: wrap !important;
+}
+
+.project-nav-grid a {
+  color: #f5f5f5 !important;
+  opacity: 0.82 !important;
+}
+
+.project-nav-grid a:hover {
+  opacity: 1 !important;
+}
+
+@media (max-width: 700px) {
+  .project-nav-grid {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 18px !important;
+  }
+}
