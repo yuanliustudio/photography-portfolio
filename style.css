@@ -1105,3 +1105,43 @@ nav a {
     white-space: normal !important;
   }
 }
+/* Project image captions */
+
+.project-image-block {
+  margin: 0 !important;
+}
+
+.project-image-block figcaption {
+  display: flex !important;
+  justify-content: space-between !important;
+  gap: 32px !important;
+  margin-top: 18px !important;
+  padding-top: 16px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.16) !important;
+  color: #b8b8b8 !important;
+}
+
+.project-image-block figcaption span {
+  font-size: 12px !important;
+  letter-spacing: 0.16em !important;
+  text-transform: uppercase !important;
+  color: #8f8f8f !important;
+}
+
+.project-image-block figcaption strong {
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  color: #d8d8d8 !important;
+  text-align: right !important;
+}
+
+@media (max-width: 700px) {
+  .project-image-block figcaption {
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+
+  .project-image-block figcaption strong {
+    text-align: left !important;
+  }
+}
