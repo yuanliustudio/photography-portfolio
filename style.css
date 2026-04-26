@@ -146,11 +146,10 @@ h2 {
 }
 .portfolio-image {
   width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
+  height: auto;
   display: block;
   margin-bottom: 22px;
-  filter: grayscale(100%);
+  filter: none;
 }
 
 .card h3 {
