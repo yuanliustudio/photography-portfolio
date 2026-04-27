@@ -1293,3 +1293,13 @@ nav a {
 .hero-next.is-loading span:first-child::after {
   content: "..." !important;
 }
+/* Exhibition detail refinement */
+
+.about-details strong br {
+  display: block !important;
+  margin-bottom: 8px !important;
+}
+
+.about-details div:has(span) strong {
+  word-break: normal !important;
+}
