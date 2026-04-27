@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
       caption: "Street / Quiet tension in everyday scenes"
     },
     {
-      src: "images/street-10.jpg",
+      src: "images/street-10-fixed.jpg",
       alt: "Street photography by Yuan Liu",
       caption: "Street / Presence, distance and observation"
     },
