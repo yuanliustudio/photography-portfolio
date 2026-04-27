@@ -1282,3 +1282,14 @@ nav a {
     font-size: 11px !important;
   }
 }
+/* Hero slider performance feedback */
+
+.hero-next:disabled {
+  opacity: 0.45 !important;
+  cursor: wait !important;
+  transform: none !important;
+}
+
+.hero-next.is-loading span:first-child::after {
+  content: "..." !important;
+}
