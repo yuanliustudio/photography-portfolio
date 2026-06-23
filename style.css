@@ -1685,3 +1685,27 @@ nav a {
     font-size: 16px !important;
   }
 }
+/* Mobile navigation refinement after adding Exhibitions */
+
+@media (max-width: 700px) {
+  .site-header {
+    height: auto !important;
+    padding: 18px 6vw 16px !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 14px !important;
+  }
+
+  nav {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 0 !important;
+    flex-wrap: nowrap !important;
+  }
+
+  nav a {
+    font-size: 11px !important;
+    white-space: nowrap !important;
+  }
+}
